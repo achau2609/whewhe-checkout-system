@@ -1,0 +1,122 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+}
+
+/* Main site*/
+.container
+{
+    width:100%;
+    max-width: 800px;
+    margin: 0px auto;
+    padding:20px 20px 20px 20px;
+}
+
+/* Top Banner */
+.banner {
+  background-color: #6a88a9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+/* NumPad */
+.randPricePad
+{
+  float: left;
+  width:25%;
+  height:400px;
+  display: grid;
+  background-color: #ffd68f;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* NumPad */
+.numpad
+{
+  float: left;
+  width:45%;
+  height: 400px;
+  background-color: #ffd68f;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Cashier */
+.cashier
+{
+  float: left;
+  width:30%;
+  font-size: 23px;
+  height: 400px;
+  background-color: #ffd68f;
+  font-weight: bold;
+  color: black;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Numpad buttons */
+.btn-num {
+  background-color: black;
+  color: yellow;
+  font-size: 30px;
+  width: 60px;
+  height: 60px; 
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-width: 3px 3px 3px 3px;
+}
+
+/*Price Btn*/
+.btn-price {
+  background-color: #6a88a9;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  width: 60px;
+  height: 60px; 
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-width: 4px 4px 4px 4px;
+  border-color: white;
+}
+
+/* Rand Btn */
+.btn-rand {
+  background-color: #6a88a9;
+  color: yellow;
+  font-size: 20px;
+  width: 130px;
+  height: 60px; 
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-width: 4px 4px 4px 4px;
+  border-color: white;
+}
+
+/* Cash Clear Btn */
+.btn-cashclear {
+  background-color: #6a88a9;
+  color: yellow;
+  font-size: 20px;
+  width: 100px;
+  height: 60px; 
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-width: 4px 4px 4px 4px;
+  border-color: white;
+}
